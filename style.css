@@ -1,0 +1,120 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #fbfbfb!important;
+}
+main{
+    margin-bottom: 200px;
+}
+.navbar{
+    background-color: #3B82F6 !important;
+}
+
+.carousel{
+    height: 450px;
+    overflow: hidden;
+}
+
+.sec-1{
+    position: relative;
+    background-color: #f3f3f3;
+    width: 100%;
+    min-height: 450px;
+    overflow: hidden;
+    padding-top: 5%;
+}
+.sec-2{
+    width: 100%;
+    height: 100px;
+    background-color: #fbfbfb;
+    padding-top: 50px;
+}
+.line{
+    position: absolute;
+    z-index: 2;
+    bottom: -50px;
+    z-index: 2;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
+}
+marquee{
+    background-color: #3B82F6;
+    padding: 5px 0 5px 0;
+    color: white;
+}
+
+.size-kategori{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.card{
+    border-radius: 7px !important;
+    border: none !important;
+}
+.card-images-left{
+    height: 335px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card-images-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.card iframe{
+    border-radius: 5px;
+}
+.card img{
+    transition: ease-in-out all .3s;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+.card img:hover{
+    background-color: blue;
+    opacity: .3;
+}
+
+
+.bg-footer{
+    background-image: url("images/ft_bg_1625013796.jpeg");
+}
+
+footer{
+    background-color: #85aff2;
+    color: white;
+    z-index: 3;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+footer h2{
+    text-transform: capitalize;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-img{
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    bottom: 190px;
+    z-index: -1;
+}
+.logo-footer{
+    width: 100px;
+}
+.footer-link-medsos{
+    font-size: 28px;
+    color: white;
+    margin-left: 10px;
+}
