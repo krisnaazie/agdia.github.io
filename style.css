@@ -45,10 +45,21 @@ marquee{
     color: white;
 }
 
+
+.img-circle{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    padding-top: 5px;
+    background: rgb(134,238,240);
+    background: linear-gradient(62deg, rgba(134,238,240,1) 0%, rgba(45,157,253,1) 100%); 
+    margin-bottom: 10px;
+}
 .size-kategori{
     width: 100px;
     height: 100px;
     object-fit: cover;
+    /* box-shadow: 0px 0px 0px 5px #A4C8FF; */
 }
 
 
@@ -136,4 +147,4 @@ footer ul li a{
     .footer-img{
         bottom: 90%;
     }
-} 
+}
