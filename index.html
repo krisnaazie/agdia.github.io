@@ -27,7 +27,10 @@
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 </head>
 
@@ -118,31 +121,31 @@
                     <div class="row text-center">
                       <div class="col-md-2">
                         <div class="img-circle text-center mx-auto">
-                          <img src="images/1.jpg" class="rounded-circle size-kategori" alt="" width="100px">
+                          <img src="images/1.jpg" class="rounded-circle size-kategori" alt="">
                         </div>
                         <p class="text-break">category</p>
                       </div>
                       <div class="col-md-2">
                         <div class="img-circle text-center mx-auto">
-                          <img src="images/2.jpg" class="rounded-circle size-kategori" alt="" width="100px">
+                          <img src="images/2.jpg" class="rounded-circle size-kategori" alt="">
                         </div>
                         <p class="text-break">category</p>
                       </div>
                       <div class="col-md-2">
                         <div class="img-circle text-center mx-auto">
-                          <img src="images/3.jpg" class="rounded-circle size-kategori" alt="" width="100px">
+                          <img src="images/3.jpg" class="rounded-circle size-kategori" alt="">
                         </div>
                         <p class="text-break">category</p>
                       </div>
                       <div class="col-md-2">
                         <div class="img-circle text-center mx-auto">
-                          <img src="images/1.jpg" class="rounded-circle size-kategori" alt="" width="100px">
+                          <img src="images/1.jpg" class="rounded-circle size-kategori" alt="">
                         </div>
                         <p class="text-break">category</p>
                       </div>
                       <div class="col-md-2">
                         <div class="img-circle text-center mx-auto">
-                          <img src="images/1.jpg" class="rounded-circle size-kategori" alt="" width="100px">
+                          <img src="images/1.jpg" class="rounded-circle size-kategori" alt="">
                         </div>
                         <p class="text-break">category</p>
                       </div>
@@ -164,9 +167,9 @@
         <section class="mt-5 container">
 
             <h2 class="mb-4">Produk Terpopuler</h2>
-            <div class="row">
-              <div class="col-sm-3">
-                <div class="card shadow mb-3 mx-auto" style="width: 18rem;">
+            <div class="row ">
+              <div class="col-lg-3 mx-auto g-2">
+                <div class="card shadow">
                   <img src="images/1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Puzzle Wudhu Putra</h5>
@@ -175,8 +178,8 @@
                 </div>
               </div>
 
-              <div class="col-sm-3">
-                <div class="card shadow mb-3 mx-auto" style="width: 18rem;">
+              <div class="col-lg-3 mx-auto g-2">
+                <div class="card shadow">
                   <img src="images/1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Alat pertukangan</h5>
@@ -185,8 +188,8 @@
                 </div>
               </div>
 
-              <div class="col-sm-3">
-                <div class="card shadow mb-3 mx-auto" style="width: 18rem;">
+              <div class="col-lg-3 mx-auto g-2">
+                <div class="card shadow">
                   <img src="images/1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Balok susun angka</h5>
@@ -195,8 +198,8 @@
                 </div>
               </div>
 
-              <div class="col-sm-3">
-                <div class="card shadow mb-3 mx-auto" style="width: 18rem;">
+              <div class="col-lg-3 mx-auto g-2">
+                <div class="card shadow">
                   <img src="images/1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">balok susun hijaiyah</h5>
@@ -215,100 +218,113 @@
             <h2 class="mb-4">Media</h2>
             
             <!-- bagian 1 -->
-            <div class="row ">
+            <div class="row g-3">
 
               <div class="col-sm-8">
+                
                 <div class="card card-body shadow p-2 mb-3" style="height: auto;">
                     <div class="ratio ratio-16x9 rounded">
-                        <iframe src="https://www.youtube.com/embed/YCQWXySKybI" title="YouTube video" allowfullscreen></iframe>
+                        <iframe height="720px"src="https://www.youtube.com/embed/YCQWXySKybI" title="YouTube video" allowfullscreen></iframe>
                     </div>
                 </div>
+
+                <div class="card card-body shadow p-2">
+                  <div class="row mx-auto">
+                    <div class="col-sm-4 ">
+                      <iframe class="" width="256" height="144" src="https://www.youtube.com/embed/sMBPMfgoB4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-sm-4 ">
+                      <iframe class="" width="256" height="144" src="https://www.youtube.com/embed/A9vrPhX9-IE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-sm-4 ">
+                      <iframe class="" width="256" height="144" src="https://www.youtube.com/embed/A9vrPhX9-IE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+
               </div>
 
-                <div class="col-sm-4">
-                  <div class="card card-body text-white shadow p-5 text-center align-center bg-footer mb-3">
+              <div class="col-sm-4">
+                  <div class="card card-body text-white shadow p-5 text-center align-center size-testi bg-footer mb-3">
                     <h5 class="fw-bolder mb-5">Testimoni</h5>
                     <img src="images/1.jpg"  class="rounded-circle size-kategori mx-auto mb-5" alt="">
-                    <h5 class="fw-bolder mb-3">username</h5>
+                    <h5 class="fw-bolder mb-3">kiki saputra</h5>
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure provident nesciunt dolore amet impedit quod maiores dolorum repudiandae nobis, officiis aut at deleniti. Tempore velit, neque quisquam officiis voluptates inventore!
+                      <i class="fas fa-quote-left"></i>
+                      <b>Ternyata pilihan saya tidak salah</b>
+                      barang bagus, kualitas bagus, worth it lah buat dibeli
+                      <i class="fas fa-quote-right"></i>
                     </p>
-                  </div>
+                </div>
               </div>
 
-            </div>
+              <div class="col-sm-4">
+                <div class="card card-body shadow mb-3">
+                  <h4>recent post</h4>
+                  
+                  <div class="row">
+                    <div class="col-12">
 
-            <!-- bagian 2 -->
-            <div class="row mt-2">
-                <div class="col-sm-4">
-                    <div class="row p-3">
+                      <div class="row mb-3">
 
-                      <div class="card card-body shadow mb-3">
-                        <h4>recent post</h4>
-                        <ul class="list-group list-group-flush">
-
-                          <li class="list-group-item">
-                              <div class="row">
-                                <div class="col-6">
-                                  <img src="images/1.jpg" alt="" class="rounded-3" style="height: 80px;">
-                                </div>
-                                <div class="col-6">
-                                  <a href="#" class="text-decoration-none text-break">perbedaan jenis permainan tradisional dan modern</a>
-                                </div>
-                              </div>
-                          </li>
-
-                          <li class="list-group-item">
-                              <div class="row">
-                                <div class="col-6">
-                                  <img src="images/1.jpg" alt="" class="rounded-3" style="height: 80px;">
-                                </div>
-                                <div class="col-6">
-                                  <a href="#" class="text-decoration-none text-break">Apa saja keuntungan mainan puzzle untuk anak</a>
-                                </div>
-                              </div>
-                          </li>
-
-                          <li class="list-group-item">
-                              <div class="row">
-                                <div class="col-6">
-                                  <img src="images/1.jpg" alt="" class="rounded-3" style="height: 80px;">
-                                </div>
-                                <div class="col-6">
-                                  <a href="#" class="text-decoration-none text-break">apa saja jenis permainan untuk anak yang bermanfaat untuk</a>
-                                </div>
-                              </div>
-                          </li>
-                      
-                        </ul>
-                      </div>
-
-                    </div>
-                </div>
-
-                <div class="col-sm-8">
-
-                  <div class="card mb-3 shadow" style="min-height: 350px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <div class="card-images-left p-2">
-                          <img src="images/1.jpg" class="img-fluid" alt="...">
+                        <div class="col-4">
+                          <img src="images/1.jpg" alt="" class="rounded-3" style="width: 100%;">
+                        </div>
+                        <div class="col-8">
+                          <a href="#" class="text-decoration-none text-break">perbedaan jenis permainan tradisional dan modern</a>
                         </div>
 
-                        <!-- style="height: 350px; object-fit: cover; border-radius: 10px; padding: 10px;" -->
+                      </div>
+
+                      <div class="row mb-3">
+
+                        <div class="col-4">
+                          <img src="images/1.jpg" alt="" class="rounded-3" style="width: 100%;">
+                        </div>
+                        <div class="col-8">
+                          <a href="#" class="text-decoration-none text-break">Apa Saja Keuntungan Mainan Puzzle untuk Anak</a>
+                        </div>
 
                       </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Manfaat Mainan Tradisional untuk Anak</h5>
-                          <p class="card-text">Kecanggihan teknologi saat ini banyak memberikan dampak negatif dan positif yang salah satunya terhadap game atau permainan. Saat ini bermain yang dulunya harus dilakukan diluar bersama dengan orang banyak, kini hanya dengan bantuan satu perangkat saja sudah bisa dilakukan di rumah.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                      <div class="row mb-3">
+
+                        <div class="col-4">
+                          <img src="images/1.jpg" alt="" class="rounded-3" style="width: 100%;">
                         </div>
+                        <div class="col-8">
+                          <a href="#" class="text-decoration-none text-break">Apa Saja Jenis Permainan untuk Anak yang Bermanfaat untuk Motorik</a>
+                        </div>
+
                       </div>
+
                     </div>
                   </div>
 
                 </div>
+              </div>
+              
+              <div class="col-sm-8">
+                <div class="card mb-3 shadow" style="min-height: 350px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <div class="card-images-left p-2">
+                        <img src="images/1.jpg" class="img-fluid" alt="...">
+                      </div>
+
+                      <!-- style="height: 350px; object-fit: cover; border-radius: 10px; padding: 10px;" -->
+
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">Manfaat Mainan Tradisional untuk Anak</a></h5>
+                        <p class="card-text">Kecanggihan teknologi saat ini banyak memberikan dampak negatif dan positif yang salah satunya terhadap game atau permainan. Saat ini bermain yang dulunya harus dilakukan diluar bersama dengan orang banyak, kini hanya dengan bantuan satu perangkat saja sudah bisa dilakukan di rumah.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             </div>
 
@@ -316,7 +332,7 @@
         <!--/ media -->
 
         <!-- blog -->
-        <section class="mt-5 container">
+        <!-- <section class="mt-5 container">
           <h2 class="mb-4">Blog</h2>
           <div class="row mx-auto">
 
@@ -459,7 +475,7 @@
             </nav>
 
           </div>
-        </section>
+        </section> -->
         <!--/ blog -->
 
     </main>
@@ -500,7 +516,7 @@
             </div>
         </div>
 
-        <div class="footer-copyright container">
+        <div class="footer-copyright container ">
           <div class="row">
             <div class="col-sm-6">
               <a href="#" class="footer-link-medsos"><i class="fab fa-facebook"></i></a>
@@ -515,9 +531,14 @@
 
     </footer>
 
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
-     
+    
+    <!-- flickity -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
 </body>
 </html>
