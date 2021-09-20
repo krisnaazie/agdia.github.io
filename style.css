@@ -1,60 +1,34 @@
-
 *{
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-body{
-    background-color: #fbfbfb!important;
-}
-main{
-    margin-bottom: 200px;
-}
-.navbar{
-    background-color: #3B82F6 !important;
-    height: 64px;
-}
-.navbar-brand img{
-    width: 75px;
-    transform: scale(1.2);
-}
 
+main{
+    background-color: #fbfbfb;
+    padding-bottom: 100px;
+}
 
 .carousel{
-    height: 450px;
+    height: 50vh;
     overflow: hidden;
+    transition:  ease-in-out all .3s;
+}
+.slider{
+    height: auto;
 }
 
-
-.sec-1{
-    position: relative;
-    background-color: #f3f3f3;
-    width: 100%;
-    min-height: 450px;
-    overflow: hidden;
-    padding-top: 5%;
-    margin-top: -5px;
-    background-image: url("images/ft_bg_1625013796.jpeg");
-    background-attachment: fixed;
-
-}
-.sec-2{
-    width: 100%;
-    height: 100px;
-    background-color: #fbfbfb;
-    padding-top: 50px;
-}
-.line{
+.navbar-brand img{
+    width: 100px;
     position: absolute;
-    z-index: 2;
-    bottom: -2vh;
-    z-index: 2;
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
 }
+
 marquee{
-    background-color: #3B82F6;
-    padding: 5px 0 5px 0;
+    background-color: #3b82f6;
     color: white;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: -2px;
 }
+
 
 
 .img-circle{
@@ -73,103 +47,97 @@ marquee{
     /* box-shadow: 0px 0px 0px 5px #A4C8FF; */
 }
 
-
-.card{
-    border-radius: 7px !important;
-    border: none !important;
-}
-.card-images-left{
-    height: 350px;
+/* section  */
+.sec-kat{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: url('images/ft_bg_1625013796.jpeg');
+    background-attachment: fixed;
     overflow: hidden;
+    box-sizing: border-box;
 }
-.card-images-left img{
-    border-radius: 5px;
+.sec-new-product{
+    margin: 100px 0px 100px 0px;
+}
+
+.line{
+    position: absolute;
     width: 100%;
+    z-index: 3;
+    margin-top: 170px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: url('images/line.png');
+    background-repeat: repeat-x;
+}
+
+
+/* card */
+.card-bg{
+    background: url('images/ft_bg_1625013796.jpeg');
     height: 100%;
+}
+
+.wrap{
+    text-align: center;
+    position: relative;
+}
+.wrap-img{
+    background: rgb(134,238,240);
+    background: linear-gradient(62deg, rgba(134,238,240,1) 0%, rgba(45,157,253,1) 100%); 
+    margin-left: auto;
+    margin-right: auto;
     object-fit: cover;
-
 }
-.card iframe{
-    border-radius: 5px;
+.kat-size{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
-.card img{
-    transition: ease-in-out all .3s;
-    z-index: 1;
-    backface-visibility: hidden;
-}
-.card img:hover{
-    background-color: blue;
-    opacity: .3;
-}
-
-.size-testi{
-    height: 672.5px;
-}
-.bg-footer{
-    background-image: url("images/ft_bg_1625013796.jpeg");
-}
-
-.img-product{
+.size-recent{
     width: 100%;
+    object-fit: cover;
     overflow: hidden;
-    border-radius: 10px;
+}
+
+.testi-img{
     object-fit: cover;
 }
-.img-product-kecil{
-    width: 150px;
-    overflow: hidden;
+
+.line-footer{
+    width: 100%;
+    height: 250px;
+    background: url('images/footer3.png');
+    background-size: cover;
+    background-clip: border-box;
+    /* background-position: -200p; */
     object-fit: cover;
+    margin-bottom: -5px;
+    bottom: 0;
+    z-index: -1;
+    transition: ease-in-out all .3s;
 }
 
 footer{
-    background-color: #85aff2;
-    color: white;
-    z-index: 3;
-    width: 100%;
-    box-sizing: border-box;
-    position: relative;
-}
-footer h2{
-    text-transform: capitalize;
-}
-footer ul{
-    list-style: none;
-}
-footer ul li a{
-    color: white;
-    text-decoration: none;
-}
-
-.footer-img{
-    overflow: hidden;
-    box-sizing: border-box;
-    width: 100%;
-    position: absolute;
-    bottom: 190px;
-    z-index: -1;
-}
-.logo-footer{
-    width: 100px;
-}
-.footer-link-medsos{
-    font-size: 28px;
-    color: white;
-    margin-left: 10px;
+    background-color: #85aff2 !important;
 }
 
 @media (max-width: 767.98px) {
+    .line-footer{
+        background-position: -150px;
+    }
+    .size-kategori{
+        width: 50px;
+        height: 50px;
+    }
+    .img-circle{
+        width: 60px;
+        height: 60px;
+    }
+    .sec-kat p{
+        font-size: 6pt;
+    }
     .carousel{
-        height: 200px;
-    }
-    .line{
-        bottom: -3vh;
-    }
-    .sec-1{
-        margin-bottom: 50px;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-    .footer-img{
-        bottom: 90%;
+        height: auto    ;
     }
 }
